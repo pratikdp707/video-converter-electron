@@ -1,0 +1,4 @@
+A desktop app which takes .mp4 file and converts it into hls format
+
+
+Run command :: npm start

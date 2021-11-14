@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div id="project" class="home-background container-fluid vh-100 text-center py-5" style="background-color: #46466E;">
+        <div class="text-center mb-5 pt-5">
+            <img id="multimedia" src="./multimedia.png" alt="asdasdasd" style="height: 200px; width:200px;"/>
+        </div>
+
+        <div class="heading mt-5 ">
+            <h1 style="color:white;">Convert your .mp4 files to HLS file format in single click</h1>
+        </div>
+
+        <div class='text-center mt-5'>
+                <button class='btn-lg btn-light p-0 align-middle text-center' style="height:70px; width:250px; font-size:1.5rem; font-weight:bolder;" onclick="changePage()">
+                    <i class='material-icons mr-2'>ondemand_video</i>
+                    Convert Now
+                </button>
+        </div>
+
+    </div>
+    <div>
+        <div id="videoForm" class="home-background container-fluid vh-100 text-center py-5" style="background-color:#46466E; display: none;">
+            <div class="text-center mb-5 mt-5">
+                <img src="./folder.png" alt="folder" style="height:300px; width: 300px;">
+            </div>
+            <div class="text-center mb-5 pt-5">
+                <button id="select-file" class="btn-light px-5" style="height: 100px; width: auto; font-size: 2rem; font-weight: bold; border-radius: 10px;"> Choose File (.mp4) </button>
+            </div>
+            <div id="info"></div>
+    </div>
+
+  </body>
+  <script src="./render.js"></script>
+</html>
